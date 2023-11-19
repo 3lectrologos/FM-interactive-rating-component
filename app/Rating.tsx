@@ -19,7 +19,7 @@ export default function Rating({ ratingLabels, className='', onSubmit=(_rating) 
       </span>
 
       <RatingButtons
-        className="mb-3 sm:mb-5"
+        className="mb-3 sm:mb-6"
         ratingLabels={ratingLabels}
         onChange={(label) => setRating(label)} />
 
