@@ -12,7 +12,7 @@ function Content() {
   if (!rated) {
     return (
       <Rating
-        className={`w-[20.5rem] ${bgColor} rounded-2xl px-6 pt-6 pb-8 sm:w-[25.5rem] sm:p-8 sm:pt-7 sm:rounded-3xl`}
+        className={`w-[20.5rem] ${bgColor} rounded-2xl px-6 pt-6 pb-8 sm:w-[25.5rem] sm:p-8 sm:rounded-3xl`}
         ratingLabels={ratingLabels}
         onSubmit={(rating) => {
           setRating(rating)
