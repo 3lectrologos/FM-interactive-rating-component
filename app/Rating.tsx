@@ -10,7 +10,7 @@ export default function Rating({ ratingLabels, className='', onSubmit=(_rating) 
       </div>
 
       <span className="text-white font-medium text-2xl sm:text-[28px]">
-        How did we do?
+        <h1>How did we do?</h1>
       </span>
 
       <span className="text-lightgray text-[14px] mb-4 sm:text-[15px] sm:leading-[25px] sm:mb-3.5">
